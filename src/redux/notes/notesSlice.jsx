@@ -9,7 +9,7 @@ export const notesSlice = createSlice({
                 id: "1",
                 text: "redux ile note app yap",
                 color: "#ebeb49",
-                date: { fulldate: "20.12.2021", time: "18.00" }
+                date: { fulldate: "20.12.2021", time: "18:00:00" }
             }
         ],
         searchInput: "",

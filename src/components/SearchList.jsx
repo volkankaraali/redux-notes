@@ -7,7 +7,7 @@ import { deleteNote, selectSearchInput } from '../redux/notes/notesSlice';
 function SearchList({ filteredNote }) {
     const dispatch = useDispatch();
     const searchInput = useSelector(selectSearchInput)
-
+    console.log(searchInput);
     return (
         <>
             {
@@ -33,7 +33,7 @@ function SearchList({ filteredNote }) {
                             <Text weight={500} style={{ wordWrap: "break-word" }} size="lg" >
                                 {note.text}
                             </Text>
-                            <Text size="xs">{note.date} </Text>
+                            <Text size="xs">{note.date.fulldate} {note.date.time}  </Text>
                             <Text size="xs">Color is {note.color} </Text>
                         </Card>
                     </div>
