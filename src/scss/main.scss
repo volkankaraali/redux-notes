@@ -24,5 +24,9 @@
   .searchInput {
     margin: 0px auto;
     width: 30%;
+
+    @media (max-width: 425px) {
+      width: 100%;
+    }
   }
 }
