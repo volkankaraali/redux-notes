@@ -1,0 +1,28 @@
+.noteDiv {
+  margin: 3rem 0px;
+  .noteForm {
+    justify-content: space-between;
+    @media (max-width: 425px) {
+      display: block;
+    }
+
+    .formFooter {
+      display: flex;
+    }
+    .colorInput {
+      margin-right: 10px;
+    }
+    .textInput {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.searchDiv {
+  margin: 1rem 0px;
+
+  .searchInput {
+    margin: 0px auto;
+    width: 30%;
+  }
+}
