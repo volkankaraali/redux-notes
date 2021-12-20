@@ -55,7 +55,7 @@ function NoteList() {
                                         </div>
                                     ))
                                 ) : <Alert title="" color="red">
-                                    There is not notes.
+                                    There are not notes.
                                 </Alert>
                             )
                     }
